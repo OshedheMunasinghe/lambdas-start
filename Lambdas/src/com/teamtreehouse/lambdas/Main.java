@@ -12,6 +12,10 @@ public class Main {
         // usingAnonymousInlineClass();
         //l();
 
+        UseFoo useFoo = new UseFoo();
+        String result = useFoo.add("Message", string -> "hello world");
+
+        System.out.println(result);
 
     }
 
